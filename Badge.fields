@@ -556,12 +556,6 @@
     "label": "Line background color",
     "value": "rgba(1, 1, 1, 0.45)"
   },
-  "lineThickness": {
-    "group": "LINE OPTIONS",
-    "type": "number",
-    "label": "Line thickness (px)",
-    "value": 10
-  },
   "lineGradientDirection": {
     "group": "LINE OPTIONS",
   	"type": "dropdown",
