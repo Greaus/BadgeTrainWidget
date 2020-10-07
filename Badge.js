@@ -31,7 +31,6 @@ window.addEventListener('onWidgetLoad', obj => {
   prefs.trainGiftTriggers = fields.trainGiftTriggers;
   prefs.trainTipLocale = fields.trainTipLocale;
   prefs.trainTipCurrency = (fields.trainTipCurrency.trim().length > 0) ? fields.trainTipCurrency.trim() : 'USD';
-  prefs.lineThickness = (fields.lineThickness > 0) ? fields.lineThickness : 0;
   const textTrain = '<div class="text-train"></div>';
   $('.container').append('<div class="container-train"></div>');
 
